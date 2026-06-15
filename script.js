@@ -227,45 +227,6 @@ filterBtns.forEach(btn => {
     });
 });
 
-// ============================================
-// TESTIMONIALS SLIDER
-// ============================================
-const testimonialCards = document.querySelectorAll('.testimonial-card');
-const testimonialDots = document.querySelectorAll('.dot');
-const prevBtn = document.querySelector('.testimonial-prev');
-const nextBtn = document.querySelector('.testimonial-next');
-let currentTestimonial = 0;
-
-function showTestimonial(index) {
-    testimonialCards.forEach((card, i) => {
-        card.classList.remove('active');
-        testimonialDots[i].classList.remove('active');
-    });
-    testimonialCards[index].classList.add('active');
-    testimonialDots[index].classList.add('active');
-}
-
-prevBtn.addEventListener('click', () => {
-    currentTestimonial = (currentTestimonial - 1 + testimonialCards.length) % testimonialCards.length;
-    showTestimonial(currentTestimonial);
-});
-
-nextBtn.addEventListener('click', () => {
-    currentTestimonial = (currentTestimonial + 1) % testimonialCards.length;
-    showTestimonial(currentTestimonial);
-});
-
-testimonialDots.forEach((dot, index) => {
-    dot.addEventListener('click', () => {
-        currentTestimonial = index;
-        showTestimonial(currentTestimonial);
-    });
-});
-
-setInterval(() => {
-    currentTestimonial = (currentTestimonial + 1) % testimonialCards.length;
-    showTestimonial(currentTestimonial);
-}, 5000);
 
 // ============================================
 // BACK TO TOP
