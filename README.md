@@ -4,14 +4,14 @@ A modern, responsive, and animated personal portfolio website built with HTML, C
 
 # Features
 
-- Fully Responsive** — Works on all devices (mobile, tablet, desktop)
-- Modern Dark Theme** — Professional dark mode design
-- Smooth Animations** — Scroll animations, typing effect, floating cards
-- Interactive Navigation** — Active states, smooth scrolling, mobile menu
-- Contact Form** — Working form with validation feedback
-- Skill Progress Bars** — Animated on scroll
-- Project Showcase** — Hover effects with live/code links
-- Back to Top Button** — Appears after scrolling
+- Fully Responsive — Works on all devices (mobile, tablet, desktop)
+- Modern Dark Theme— Professional dark mode design
+- Smooth Animations— Scroll animations, typing effect, floating cards
+- Interactive Navigation— Active states, smooth scrolling, mobile menu
+- Contact Form— Working form with validation feedback
+- Skill Progress Bars— Animated on scroll
+- Project Showcase — Hover effects with live/code links
+- Back to Top Button— Appears after scrolling
 
 # Quick Start
   
