@@ -394,33 +394,6 @@ img { max-width: 100%; height: auto; display: block; }
 .blog-read-more:hover { gap: 0.75rem; }
 .blog-read-more i { transition: var(--transition); }
 
-/* TESTIMONIALS */
-.testimonials { background: var(--dark); position: relative; z-index: 1; }
-.testimonials-slider { max-width: 800px; margin: 0 auto; position: relative; }
-.testimonial-card {
-    background: var(--dark-light); padding: 3rem; border-radius: var(--radius-lg);
-    border: 1px solid var(--dark-lighter); text-align: center; display: none;
-    animation: fadeIn 0.5s ease;
-}
-.testimonial-card.active { display: block; }
-@keyframes fadeIn { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
-.testimonial-stars { color: var(--accent); font-size: 1.1rem; margin-bottom: 1.5rem; }
-.testimonial-text { font-size: 1.2rem; color: var(--gray); line-height: 1.8; margin-bottom: 2rem; font-style: italic; }
-.testimonial-author { display: flex; align-items: center; justify-content: center; gap: 1rem; }
-.testimonial-author img { width: 60px; height: 60px; border-radius: 50%; object-fit: cover; border: 3px solid var(--primary); }
-.testimonial-author h4 { color: var(--white); font-family: var(--font-display); font-size: 1.1rem; }
-.testimonial-author span { color: var(--gray); font-size: 0.9rem; }
-.testimonial-nav { display: flex; justify-content: center; align-items: center; gap: 2rem; margin-top: 2rem; }
-.testimonial-prev, .testimonial-next {
-    width: 45px; height: 45px; border-radius: 50%; background: var(--dark-light);
-    border: 1px solid var(--dark-lighter); color: var(--gray); cursor: pointer;
-    transition: var(--transition); display: flex; align-items: center; justify-content: center;
-}
-.testimonial-prev:hover, .testimonial-next:hover { background: var(--primary); color: var(--white); border-color: var(--primary); }
-.testimonial-dots { display: flex; gap: 0.5rem; }
-.dot { width: 10px; height: 10px; border-radius: 50%; background: var(--dark-lighter); cursor: pointer; transition: var(--transition); }
-.dot.active { background: var(--primary); width: 30px; border-radius: 5px; }
-
 /* CONTACT */
 .contact { background: var(--dark-light); position: relative; z-index: 1; }
 .contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: start; }
